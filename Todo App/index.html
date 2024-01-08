@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./icons/icons8-todo-list-50.png">
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <main>
+        <form>
+            <label for="textarea">Create a Todo List</label>
+            <textarea cols="30" rows="10" id="textarea" placeholder="Enter your ToDo List"></textarea>
+            <div id="message">ToDo not be Empty</div>
+            <input type="button" value="Post" onclick="post()">
+        </form>
+        <section>
+            <h3>Your Todo List</h3>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
